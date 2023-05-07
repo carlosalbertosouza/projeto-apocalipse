@@ -1,12 +1,18 @@
 @charset "UTf-8";   
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
 html, body {
     min-height: 100vh;
-    background-color: rgb(185, 178, 177);
+    background-color: darkgray;
 }
 
 header {
-    width: 600px;
+    width: 400px;
     background-color: black;
     color: white;
     text-align: left;
@@ -22,29 +28,46 @@ header > h1 {
 }
 
 section {
-    font-size: 2vw;
-    width: 600px;
-    background-color: rgba(255, 255, 255, 0.61);
-    border-radius: 3px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
 }
 section > p {
+    
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    padding: 10px;
-    padding-bottom: 4em;
-}
-
-.p1 {
-    display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.322);
-    text-shadow: 1px 1px 0px black;
 }
 
+section#img01 {
+
+}
+
+section#img02 {
+
+}
 
 a {
-    background-color: black;
-    margin: 10px 10px 10px 1px; 
+    background-color: black; 
     color: rgb(233, 15, 15);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vw;

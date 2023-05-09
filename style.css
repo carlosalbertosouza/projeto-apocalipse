@@ -13,11 +13,13 @@ html, body {
 
 header {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw; 
+    font-size: 4vw; 
     color: white;
     text-align: center;
-    background-color: rgb(122, 25, 109);
-    padding: 5px;
+    background-image: url(imagens/img.01/fogoincendio.jpg);
+    background-position:  top center;
+    background-size: cover;
+    padding: 40px;
 }
 
 section {
@@ -70,8 +72,8 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url(imagens/img.01/biblia\ em\ hebraico.jpg);
-    background-position: right center;
+    background-image: url(imagens/img.01/noiteestrelada.jpg);
+    background-position: left center;
     background-size: cover;
 }
 
@@ -82,7 +84,7 @@ section#img02 {
 }
 
 section#img03 {
-    background-image: url(imagens/img.01/cruz\ em\ chamas.jpg);
+    background-image: url(imagens/img.01/explosão\ vermelha.jpg);
     background-position: right center;
     background-size: cover;
 }
@@ -93,29 +95,54 @@ section#img04 {
     background-size: cover;
 }
 section#img05 {
-    background-image: url(imagens/img.01/jusus\ com\ cajado.jpg);
+    background-image: url(imagens/img.01/fogo.jpg);
     background-position: top center;
     background-size: cover;
 }
 
-imagem {
-    width: 400px;
+aside > h2, h3 {
+    color: rgb(167, 167, 91);
+}
+
+div {
+    margin-top: 0px;
+
+}
+
+div.video {
+    background-image:url(imagens/img.01/por\ do\ sol.jpg) ;
+    background-position: top center;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 53.2%;
+    position: relative;
+}
+
+div.video >iframe {
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+
 }
 
 footer {
+    background-image:url(imagens/img.01/fogo.jpg) ;
+    background-position: bottom center;
+    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
-a {
-    background-color: black; 
-    color: rgb(165, 53, 68);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+a { 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     text-decoration: none;
-    border-radius: 150px;
+   
     
 }
 a:hover {

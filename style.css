@@ -8,31 +8,24 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(95, 29, 62);
 }
 
 header {
-    width: 400px;
-    background-color: black;
-    color: white;
-    text-align: left;
-    border-radius: 3px;
-}
-
-header > h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3vw; 
-    background-color: rgb(53, 35, 9);
-    border-radius: 3px;
+    color: white;
+    text-align: center;
+    background-color: rgb(122, 25, 109);
     padding: 5px;
 }
 
 section {
-    padding-top: 10vh;
+    padding-top:10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
-    font-size: 3vw;
+    padding-left:30px;
+    font-size: 2vw;
 }
 section > p {
     
@@ -40,8 +33,11 @@ section > p {
 }
 
 section.normal {
-    background-color: white;
-    color: black;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem {
@@ -52,30 +48,53 @@ section.imagem {
     background-attachment: fixed;
 }
 
+section.normal > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.315);
+    display: inline-block
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 5px;
+
+}
+
 section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.315);
+    display: inline-block
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     padding: 5px;
 }
 
 section#img01 {
-
+    background-image: url(imagens/img.01/LeãodeJuda01.jpg);
+    background-position: right center;
 }
 
 section#img02 {
+    background-image: url(imagens/img.01/LeãodeJuda01.jpg);
+    background-position: right center;
+}
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 a {
     background-color: black; 
-    color: rgb(233, 15, 15);
+    color: rgb(165, 53, 68);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vw;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 150px;
     
 }
 a:hover {
-    color: white;
+    color: rgb(218, 233, 17);
     text-decoration: underline;
 }
+

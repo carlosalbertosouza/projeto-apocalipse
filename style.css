@@ -51,7 +51,7 @@ section.imagem {
 }
 
 section.normal > p {
-    width: 550px;
+    width: 400px;
     background-color: rgba(0, 0, 0, 0.575);
     text-shadow: 1px 1px 0px black;
     display: inline-block
@@ -62,7 +62,7 @@ section.normal > p {
 }
 
 section.imagem > p {
-    width: 550px;
+    width: 400px;
     background-color: rgba(0, 0, 0, 0.623);
     text-shadow: 1px 1px 0px black;
     display: inline-block
@@ -97,6 +97,109 @@ section#img04 {
 section#img05 {
     background-image: url(imagens/img.01/fogo.jpg);
     background-position: top center;
+    background-size: cover;
+}
+
+section#img06 {
+    background-image: url(imagens/img.01/biblia\ aberta.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+section#img07 {
+    background-image: url(imagens/img.01/por\ do\ sol.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img08 {
+    background-image: url(imagens/img.01/tres\ cruzes.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img09 {
+    background-image: url(imagens/img.01/leãodeJuda02.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+section#img10 {
+    background-image: url(imagens/img.01/so\ a\ biblia.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img11 {
+    background-image: url(imagens/img.01/noiteestrelada.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+section#img12 {
+    background-image: url(imagens/img.01/cruz\ na\ montanha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img13 {
+    background-image: url(imagens/img.01/explosão\ vermelha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img14 {
+    background-image: url(imagens/img.01/LeãodeJuda01.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img15 {
+    background-image: url(imagens/img.01/fogo.jpg);
+    background-position: top center;
+    background-size: cover;
+}section#img16 {
+    background-image: url(imagens/img.01/noiteestrelada.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+section#img17 {
+    background-image: url(imagens/img.01/cruz\ na\ montanha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img18 {
+    background-image: url(imagens/img.01/explosão\ vermelha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img19 {
+    background-image: url(imagens/img.01/LeãodeJuda01.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img20 {
+    background-image: url(imagens/img.01/fogo.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+section#img21 {
+    background-image: url(imagens/img.01/noiteestrelada.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+section#img22 {
+    background-image: url(imagens/img.01/cruz\ na\ montanha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img23 {
+    background-image: url(imagens/img.01/explosão\ vermelha.jpg);
+    background-position: right center;
     background-size: cover;
 }
 

@@ -12,6 +12,7 @@ html, body {
 }
 
 header {
+    border: solid rgb(231, 9, 28) ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw; 
     color: white;
@@ -19,7 +20,7 @@ header {
     background-image: url(imagens/img.01/fogoincendio.jpg);
     background-position:  top center;
     background-size: cover;
-    padding: 40px;
+    padding: 50px;
 }
 
 section {
@@ -231,6 +232,7 @@ div.video >iframe {
 }
 
 footer {
+    border: solid rgb(241, 145, 55) ;
     background-image:url(imagens/img.01/fogo.jpg) ;
     background-position: bottom center;
     background-size: cover;

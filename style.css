@@ -36,7 +36,7 @@ section {
     margin: auto;
 }
 section > p {
-     padding-bottom: 2em;
+     padding-bottom: 2px;
 }
 
 section.normal {
@@ -55,21 +55,18 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     border: 5px solid black;
-    
 }
 
 section.normal > p {
-    max-width: 200px;
-    background-color: rgba(0, 0, 0, 0.575);
+    max-width: 350px;
+    background-color: rgba(112, 20, 20, 0.575);
     text-shadow: 1px 1px 0px black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    padding: 5px;
-
 }
 
 section.imagem > p {
-    max-width: 200px;
+    max-width: 350px;
     background-color: rgba(0, 0, 0, 0.623);
     text-shadow: 1px 1px 0px black;
     font-family: Arial, Helvetica, sans-serif;
